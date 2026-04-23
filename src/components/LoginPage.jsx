@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { indexedDBHelper } from '../utils/indexedDB';
+import { indexedDBHelper } from '../utils/IndexedDB';
 import '../compCSS/LoginPage.css';
 
 const LoginPage = () => {
