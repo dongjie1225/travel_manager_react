@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { indexedDBHelper } from '../utils/indexedDB';
+import { indexedDBHelper } from '../utils/IndexedDB';
 import '../compCSS/TravelManager.css';
 
 const TravelManager = () => {

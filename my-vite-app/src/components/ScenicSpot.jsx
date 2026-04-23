@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { indexedDBHelper } from '../utils/indexedDB';
+import { indexedDBHelper } from '../utils/IndexedDB';
 import '../compCSS/ScenicSpot.css';
 
 // 初始数据常量
